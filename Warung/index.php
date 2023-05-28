@@ -79,7 +79,7 @@
 
 	<footer>
 		<div class="container">
-			<small>Copyright &copy; 2023 - Warung Web (Farid Nurtaufiq) </small>
+			<small>Copyright &copy; 2023 - Warung Web </small>
 		</div>
 	</footer>
 </body>
