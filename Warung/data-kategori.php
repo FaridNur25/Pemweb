@@ -58,7 +58,10 @@
                                 <a href="edit_kategori.php?id=<?php echo $row['category_id']?>">Edit</a> || <a href="proses-hapus.php?idk=<?php echo $row['category_id']?>" onclick="return confirm('Yakin ingin dihapus ?')">Hapus</a>
                             </td>
                         </tr>
-						<?php } ?>
+						<?php }}else{ ?>
+							<tr> 
+								<td colspan="3">Tidak ada data</td>
+						</tr>
                     </tbody>
                 </table>
             </div>
